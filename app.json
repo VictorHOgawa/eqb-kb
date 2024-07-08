@@ -40,7 +40,7 @@
       }
     },
     "android": {
-      "googleServicesFile": "./android/app/google-services.json",
+      "googleServicesFile": "./google-services.json",
       "package": "com.gabrielmfernandes.push_notifications_test",
       "versionCode": 65,
       "permissions": ["CAMERA", "ACCESS_COARSE_LOCATION", "com.google.android.gms.permission.AD_ID"]
