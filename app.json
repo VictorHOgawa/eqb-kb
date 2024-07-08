@@ -1,27 +1,60 @@
 {
   "expo": {
-    "name": "wetho",
-    "slug": "wetho",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "scheme": "nightapp",
+    "icon": "./assets/logoStore.png",
+    "name": "NightApp",
+    "slug": "NightApp",
+    "version": "2.6.0",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splashLinearLow.png",
+      "backgroundColor": "#230743",
+      "resizeMode": "cover"
     },
+    "plugins": [
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "Essas informações são utilizadas para cadastro e para entrega de eventos personalizados."
+        }
+      ],
+      "@react-native-firebase/perf",
+      "@react-native-firebase/app",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development"
+        }
+      ]
+    ],
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.nightapp",
+      "buildNumber": "2.6.0",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esse aplicativo utiliza da camera para leitura de qrCode",
+        "NSLocationWhenInUseUsageDescription": "Precisamos da sua localização para que possamos mostrar os melhores eventos perto de você",
+        "NSUserTrackingUsageDescription": "Essas informações são utilizadas para cadastro e para entrega de eventos personalizados."
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "prod.nightapp",
+      "versionCode": 65,
+      "permissions": ["CAMERA", "ACCESS_COARSE_LOCATION", "com.google.android.gms.permission.AD_ID"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "446aae1f-23d5-4388-8efd-9e3dc77b1e91"
+      }
     }
   }
 }
