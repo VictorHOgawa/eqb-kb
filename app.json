@@ -31,7 +31,7 @@
     ],
     "ios": {
       "googleServicesFile": "./GoogleService-Info.plist",
-      "bundleIdentifier": "com.gabrielmfernandes.push_notifications_test",
+      "bundleIdentifier": "com.gabrielmfernandes.push-notifications-test",
       "buildNumber": "2.6.0",
       "infoPlist": {
         "NSCameraUsageDescription": "Esse aplicativo utiliza da camera para leitura de qrCode",
