@@ -1,9 +1,9 @@
 {
   "expo": {
-    "scheme": "nightapp",
+    "scheme": "push-notifications-test",
     "icon": "./assets/logoStore.png",
-    "name": "NightApp",
-    "slug": "NightApp",
+    "name": "push-notifications-test",
+    "slug": "push-notifications-test",
     "version": "2.6.0",
     "splash": {
       "image": "./assets/splashLinearLow.png",
