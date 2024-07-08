@@ -1,9 +1,9 @@
 {
   "expo": {
-    "scheme": "push-notifications-test",
+    "scheme": "NightApp",
     "icon": "./assets/logoStore.png",
-    "name": "push-notifications-test",
-    "slug": "push-notifications-test",
+    "name": "NightApp",
+    "slug": "NightApp",
     "version": "2.6.0",
     "splash": {
       "image": "./assets/splashLinearLow.png",
@@ -31,7 +31,7 @@
     ],
     "ios": {
       "googleServicesFile": "./GoogleService-Info.plist",
-      "bundleIdentifier": "com.gabrielmfernandes.push-notifications-test",
+      "bundleIdentifier": "com.nightapp",
       "buildNumber": "2.6.0",
       "infoPlist": {
         "NSCameraUsageDescription": "Esse aplicativo utiliza da camera para leitura de qrCode",
@@ -41,13 +41,13 @@
     },
     "android": {
       "googleServicesFile": "./google-services.json",
-      "package": "com.gabrielmfernandes.push_notifications_test",
+      "package": "prod.nightapp",
       "versionCode": 65,
       "permissions": ["CAMERA", "ACCESS_COARSE_LOCATION", "com.google.android.gms.permission.AD_ID"]
     },
     "extra": {
       "eas": {
-        "projectId": "b08608ca-6f9c-4f5f-b5fd-0649bef51771"
+        "projectId": "446aae1f-23d5-4388-8efd-9e3dc77b1e91"
       }
     }
   }
