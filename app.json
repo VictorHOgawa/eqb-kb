@@ -27,17 +27,11 @@
             "useFrameworks": "static"
           }
         }
-      ],
-      [
-        "onesignal-expo-plugin",
-        {
-          "mode": "development"
-        }
       ]
     ],
     "ios": {
       "googleServicesFile": "./GoogleService-Info.plist",
-      "bundleIdentifier": "com.nightapp",
+      "bundleIdentifier": "com.gabrielmfernandes.push_notifications_test",
       "buildNumber": "2.6.0",
       "infoPlist": {
         "NSCameraUsageDescription": "Esse aplicativo utiliza da camera para leitura de qrCode",
@@ -46,14 +40,14 @@
       }
     },
     "android": {
-      "googleServicesFile": "./google-services.json",
-      "package": "prod.nightapp",
+      "googleServicesFile": "./android/app/google-services.json",
+      "package": "com.gabrielmfernandes.push_notifications_test",
       "versionCode": 65,
       "permissions": ["CAMERA", "ACCESS_COARSE_LOCATION", "com.google.android.gms.permission.AD_ID"]
     },
     "extra": {
       "eas": {
-        "projectId": "446aae1f-23d5-4388-8efd-9e3dc77b1e91"
+        "projectId": "b08608ca-6f9c-4f5f-b5fd-0649bef51771"
       }
     }
   }
